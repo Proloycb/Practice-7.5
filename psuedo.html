@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .person:focus {
+            color: aqua;
+            background-color: blueviolet;
+        }
+        li:first-child {
+            color: brown;
+        }
+        li:last-child {
+            color: burlywood;
+        }
+        li:nth-child(2n) {
+            color: aqua;
+        }
+        h1::before {
+            content:'Hello ';
+        }
+        h1::after {
+            content: ' item';
+        }
+    </style>
+</head>
+<body>
+    <h1>Psuedo element</h1>
+    <input type="text">
+    <input class="person" type="text">
+    <input type="text">
+    <h1>this is a demo</h1>
+    <h1>this is a demo</h1>
+    <h1>this is a demo</h1>
+    <h1>this is a demo</h1>
+    <ul>
+        <li>item-1</li>
+        <li>item-2</li>
+        <li>item-3</li>
+        <li>item-4</li>
+        <li>item-5</li>
+    </ul>
+</body>
+</html>
